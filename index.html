@@ -8,31 +8,31 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
-    <footer class="bg-[#659f8f] py-20 px-32">
-        <div class="flex gap-96">
+    <footer class="bg-[#659f8f] py-12 md:py-24 px-8 md:px-20 lg:px-16 w-full">
+        <div class="flex flex-col lg:flex-row gap-12 lg:gap-80">
             <!-- First flex container -->
             <div>
-                <h1 class="pb-5 text-xl font-semibold text-stone-800 tracking-wide" >Subscribe to our newsletter for updates.</h1>
-                <div class="flex gap-3">
-                    <input class="py-2 px-3 rounded-md text-sm" id="email" type="email" placeholder="Email Address">
-                    <button class="bg-amber-600 text-white w-28 py-2 px-3 text-sm rounded-md">
+                <h1 class="pb-8 text-xl md:text-2xl font-semibold text-stone-800" >Subscribe to our newsletter for updates.</h1>
+                <div class="flex flex-col md:flex-row gap-4">
+                    <input class="py-2 px-3 md:px-6 rounded-md text-sm md:text-lg md:w-64 lg:w-60 md:h-12" id="email" type="email" placeholder="Email Address">
+                    <button class="bg-amber-600 text-white w-100% md:w-36 md:h-12 py-2 px-3 text-sm md:text-lg rounded-md">
                         Subscribe
                     </button>
                 </div>
             </div>
             <!-- Second flex container -->
-            <div class="flex gap-80">
-                <div class="">
-                    <p class="mb-5 text-stone-800 font-semibold tracking-wide">Quick Link</p>
-                    <div class="flex flex-col gap-1 text-sm text-zinc-700 tracking-wide">
+            <div class="flex flex-col md:flex-row gap-8 md:gap-72">
+                <div>
+                    <p class="mb-5 text-stone-800 font-semibold tracking-wide md:text-lg">Quick Link</p>
+                    <div class="flex flex-col gap-2 text-sm text-zinc-700 tracking-wide md:text-lg">
                         <a href="#">Home</a>
                         <a href="#">Who We Are</a>
                         <a href="#">Our Philosophy</a>
                     </div>
                 </div>
-                <div class="">
-                    <p class="mb-5 text-stone-800 font-semibold tracking-wide">Technologies</p>
-                    <div class="flex flex-col gap-1 text-sm text-zinc-700 tracking-wide">
+                <div>
+                    <p class="mb-5 text-stone-800 font-semibold tracking-wide md:text-lg">Technologies</p>
+                    <div class="flex flex-col gap-2 text-sm text-zinc-700 tracking-wide md:text-lg">
                         <a href="#">HTML</a>
                         <a href="#">CSS</a>
                         <a href="#">JavaScript</a>
@@ -41,11 +41,11 @@
             </div>
         </div>
         
-        <hr class="my-6 border-amber-600 border">
+        <hr class="my-6 md:my-12 border-amber-600 border">
         
         <div>
             <a href="#">
-                <img class="w-auto h-6" src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg" alt="">
+                <img class="w-auto h-6 md:h-8" src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg" alt="">
             </a>
         </div>
     </footer>
